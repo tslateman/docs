@@ -13,6 +13,7 @@ Before publishing any documentation, ensure:
 ## Core Principles Checklist
 
 ### Clarity
+
 - [ ] Plain, accessible language used throughout
 - [ ] All technical terms defined on first use
 - [ ] All acronyms explained on first use
@@ -20,6 +21,7 @@ Before publishing any documentation, ensure:
 - [ ] Written for target audience knowledge level
 
 ### Conciseness
+
 - [ ] Only necessary information included
 - [ ] Focus on core use cases (80% of usage)
 - [ ] Edge cases documented separately
@@ -27,6 +29,7 @@ Before publishing any documentation, ensure:
 - [ ] No redundant content
 
 ### Structure
+
 - [ ] Most important information appears first
 - [ ] Headings are clear and descriptive
 - [ ] Text highlighting limited to 10% or less
@@ -36,6 +39,7 @@ Before publishing any documentation, ensure:
 ## Documentation Type Checklists
 
 ### Tutorial Checklist
+
 - [ ] Starts with minimal prerequisites
 - [ ] Each step tested and verified
 - [ ] Learning objectives clearly stated
@@ -44,6 +48,7 @@ Before publishing any documentation, ensure:
 - [ ] Celebrates completion
 
 ### How-To Guide Checklist
+
 - [ ] Clear problem statement at beginning
 - [ ] Assumes appropriate knowledge level
 - [ ] Steps are concise and actionable
@@ -52,6 +57,7 @@ Before publishing any documentation, ensure:
 - [ ] Focuses on task completion
 
 ### Explanation Checklist
+
 - [ ] Concepts clearly introduced
 - [ ] Background context provided
 - [ ] Trade-offs discussed
@@ -60,6 +66,7 @@ Before publishing any documentation, ensure:
 - [ ] Connected to bigger picture
 
 ### Reference Checklist
+
 - [ ] Information is complete
 - [ ] Format is consistent
 - [ ] Easy to scan/search
@@ -70,6 +77,7 @@ Before publishing any documentation, ensure:
 ## Documentation Quick Reference
 
 ### Do's
+
 - Start with user needs
 - Use examples liberally
 - Include diagrams where helpful
@@ -77,6 +85,7 @@ Before publishing any documentation, ensure:
 - Keep language consistent
 
 ### Don'ts
+
 - Don't assume prior knowledge
 - Don't mix documentation types
 - Don't over-highlight text
@@ -86,6 +95,7 @@ Before publishing any documentation, ensure:
 ## Template Structures
 
 ### README Template Structure
+
 1. Project name and description
 2. Quick start guide
 3. Installation instructions
@@ -95,6 +105,7 @@ Before publishing any documentation, ensure:
 7. License information
 
 ### API Documentation Template Structure
+
 1. Endpoint overview
 2. Authentication requirements
 3. Request parameters
@@ -104,6 +115,7 @@ Before publishing any documentation, ensure:
 7. Rate limiting information
 
 ### Tutorial Template Structure
+
 1. Learning objectives
 2. Prerequisites
 3. Setup instructions
@@ -113,6 +125,7 @@ Before publishing any documentation, ensure:
 7. Next steps
 
 ### Architecture Decision Record (ADR) Template Structure
+
 1. Title
 2. Status (proposed/accepted/deprecated)
 3. Context
@@ -123,6 +136,7 @@ Before publishing any documentation, ensure:
 ## Maintenance Schedule Checklist
 
 ### Quarterly Review
+
 - [ ] Identify outdated information
 - [ ] Check broken links
 - [ ] Update version-specific content
@@ -130,6 +144,7 @@ Before publishing any documentation, ensure:
 - [ ] Prioritize gaps to fill
 
 ### After Each Release
+
 - [ ] Update version numbers
 - [ ] Document new features
 - [ ] Update API references
@@ -137,6 +152,7 @@ Before publishing any documentation, ensure:
 - [ ] Archive deprecated content
 
 ### Continuous
+
 - [ ] Monitor documentation analytics
 - [ ] Respond to user questions
 - [ ] Track common support issues

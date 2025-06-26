@@ -7,6 +7,7 @@ The Diátaxis framework is a systematic approach to organizing technical documen
 ## Understanding the Four Quadrants
 
 The framework divides documentation into four categories based on two axes:
+
 - **Practical vs. Theoretical**: Whether the content is hands-on or conceptual
 - **Learning vs. Working**: Whether the user is studying or accomplishing tasks
 
@@ -17,6 +18,7 @@ This creates four distinct quadrants:
 **Purpose**: Help newcomers learn by doing
 
 **Characteristics**:
+
 - Step-by-step instructions for beginners
 - Focus on learning outcomes, not task completion
 - Provide a safe, guided experience
@@ -25,6 +27,7 @@ This creates four distinct quadrants:
 **Example**: "Getting Started with Project X" - A guided tour through basic features
 
 **Key Principles**:
+
 - Start with minimal prerequisites
 - Ensure each step works perfectly
 - Explain what's happening, not just how
@@ -35,6 +38,7 @@ This creates four distinct quadrants:
 **Purpose**: Help users solve specific problems
 
 **Characteristics**:
+
 - Procedural steps for specific goals
 - Assume basic familiarity with the system
 - Focus on successful task completion
@@ -43,6 +47,7 @@ This creates four distinct quadrants:
 **Example**: "How to Deploy to Production" - Steps to accomplish a specific goal
 
 **Key Principles**:
+
 - Start with clear problem statement
 - Provide minimal, focused instructions
 - Offer variations for different scenarios
@@ -53,6 +58,7 @@ This creates four distinct quadrants:
 **Purpose**: Provide deeper understanding and context
 
 **Characteristics**:
+
 - Discuss concepts and background
 - Explain why things work as they do
 - Provide alternative viewpoints
@@ -61,6 +67,7 @@ This creates four distinct quadrants:
 **Example**: "Architecture Overview" - Understanding system design decisions
 
 **Key Principles**:
+
 - Focus on clarity of concepts
 - Use analogies and examples
 - Discuss trade-offs and alternatives
@@ -71,6 +78,7 @@ This creates four distinct quadrants:
 **Purpose**: Provide precise technical information
 
 **Characteristics**:
+
 - Structured, searchable content
 - Complete and accurate details
 - Consistent format and terminology
@@ -79,6 +87,7 @@ This creates four distinct quadrants:
 **Example**: "API Reference" - Complete technical specifications
 
 **Key Principles**:
+
 - Be comprehensive and accurate
 - Use consistent structure
 - Optimize for searching/scanning
@@ -87,17 +96,22 @@ This creates four distinct quadrants:
 ## Why Diátaxis Works
 
 ### Clear Mental Models
+
 Users know exactly what type of help they're looking for and where to find it. The framework matches natural information-seeking patterns.
 
 ### Appropriate Writing Style
+
 Each type requires different writing approaches:
+
 - Tutorials: Encouraging and supportive
 - How-To: Direct and efficient
 - Explanations: Thoughtful and comprehensive
 - Reference: Precise and structured
 
 ### Reduced Confusion
+
 By separating concerns, documentation avoids common problems:
+
 - Tutorials don't overwhelm with details
 - References don't include unnecessary context
 - How-to guides stay focused on the task
@@ -106,18 +120,21 @@ By separating concerns, documentation avoids common problems:
 ## Common Mistakes to Avoid
 
 ### Mixing Documentation Types
+
 - Don't put explanations in how-to guides
 - Don't include tutorials in reference material
 - Don't add step-by-step instructions to explanations
 - Don't philosophize in tutorials
 
 ### Wrong Audience Assumptions
+
 - Tutorials assuming prior knowledge
 - How-to guides explaining basic concepts
 - Reference material with opinions
 - Explanations with prerequisites
 
 ### Structural Issues
+
 - Inconsistent categorization
 - Unclear navigation between types
 - Missing documentation types
@@ -126,24 +143,28 @@ By separating concerns, documentation avoids common problems:
 ## Implementation Strategy
 
 ### 1. Audit Existing Documentation
+
 - Categorize current docs into the four types
 - Identify mixed-content documents
 - Find gaps in coverage
 - Note misplaced content
 
 ### 2. Restructure Content
+
 - Create clear sections for each type
 - Move content to appropriate categories
 - Rewrite mixed content as separate docs
 - Fill identified gaps
 
 ### 3. Establish Guidelines
+
 - Create templates for each type
 - Define writing style guides
 - Set review criteria
 - Train contributors
 
 ### 4. Maintain Consistency
+
 - Regular content audits
 - Enforce categorization
 - Update as product evolves

@@ -120,24 +120,28 @@ This guide provides actionable steps for developers to thrive in an AI-enhanced 
 ## Practical Exercises
 
 ### Week 1-2: AI Tool Mastery
+
 - Use AI for a small project
 - Compare AI output with your approach
 - Document pros and cons
 - Identify optimal use cases
 
 ### Week 3-4: System Design Practice
+
 - Design a complex system without code
 - Focus on component interactions
 - Document architectural decisions
 - Present to peers for feedback
 
 ### Week 5-6: Communication Enhancement
+
 - Write technical blog post
 - Lead a code review session
 - Present a tech talk
 - Document a complex system
 
 ### Week 7-8: Future Preparation
+
 - Research emerging technologies
 - Build proof of concept with new tech
 - Share learnings with team
@@ -162,18 +166,21 @@ This guide provides actionable steps for developers to thrive in an AI-enhanced 
 ## Long-term Strategy
 
 ### Year 1: Foundation
+
 - Master current AI tools
 - Strengthen system design skills
 - Improve communication abilities
 - Build learning habits
 
 ### Year 2-3: Expansion
+
 - Lead architectural initiatives
 - Mentor others in AI adoption
 - Contribute to strategic decisions
 - Develop domain expertise
 
 ### Year 3+: Leadership
+
 - Shape team AI strategies
 - Define best practices
 - Lead transformation efforts

@@ -3,33 +3,39 @@
 ## Employment Impact Studies
 
 ### Workforce Transformation
+
 - **12%** of global workforce may need to change occupations by 2030 due to AI (McKinsey, 2023)
 - **60%** of workers in AI-exposed occupations report increased stress levels (MIT Study, 2024)
 - **20%** reduction in call center employment in sectors with high AI adoption (Contact Center Pipeline, 2023)
 
 ### Correlation with Wages
+
 - AI exposure highly correlated with higher wages, suggesting skilled workers affected first (Brookings, 2023)
 
 ## Productivity Metrics
 
 ### Initial vs. Long-term Gains
+
 - **55%** initial productivity gains in coding tasks
 - **10-20%** actual productivity after 6 months (Stanford/MIT Study)
 - **40%** of AI-generated code requires significant refactoring (Microsoft Research)
 - **Negative productivity** for complex system design tasks (Google Internal Metrics)
 
 ### Hidden Costs
+
 - **2-3 hours** - Duration before "prompt fatigue" sets in during AI pair programming (Stack Overflow Survey, 2024)
 - Time equation: Actual Gain = (Time Saved) - (Prompting) - (Verification) - (Debugging) - (Refactoring) - (Context Switching)
 
 ## Psychological Impact Data
 
 ### Worker Well-being
+
 - **73%** of tech workers report "AI anxiety" about job security (APA Survey, 2024)
 - Job satisfaction decreased in creative fields using AI tools (Nature Human Behaviour)
 - **3 months** - Time after which "skill atrophy" becomes measurable with heavy AI tool usage (Journal of Applied Psychology)
 
 ### Stress Factors
+
 - Identity crisis among 20+ year experts
 - "Imposter Syndrome 2.0" - questioning if achievements are "real" when AI-assisted
 - Decision paralysis between human intuition and AI recommendations
@@ -37,15 +43,18 @@
 ## Industry-Specific Impact
 
 ### Healthcare
+
 - **2016**: "AI will help radiologists, not replace them"
 - **2024**: Many hospitals reducing radiology staff as AI handles routine screenings
 
 ### Legal
+
 - Paralegal positions eliminated at major firms
 - Junior associate hours drastically reduced
 - AI handling majority of legal discovery work
 
 ### Software Development
+
 - GitHub Copilot adoption showing mixed results
 - Maintenance and debugging time often increases with AI-generated code
 - System design quality decreased when heavily AI-dependent
@@ -53,6 +62,7 @@
 ## AI Capability Evolution Timeline
 
 ### Moving Goalposts
+
 - **2015**: "AI can't write code"
 - **2018**: "AI can't create art"
 - **2020**: "AI can't write creatively"
@@ -62,11 +72,13 @@
 ## Economic Impact Projections
 
 ### Transition Costs
+
 - **6-12 months** salary recommended per displaced worker for transition support
 - **$10,000-25,000** suggested retraining voucher value per worker
 - **5-10%** proposed tax on AI productivity gains for worker support
 
 ### Time Horizons
+
 - **90 days** recommended advance notice for AI implementations affecting jobs
 - **12+ months** emergency fund suggested for workers (up from traditional 3-6 months)
 - **20%** of work hours recommended for paid retraining time
@@ -74,11 +86,13 @@
 ## Adoption Patterns
 
 ### Resistance Movements
+
 - "Artisan Software Movement" - companies marketing "100% human-coded" software
 - AI-Free Zones in professional communities
 - "Slow Tech" movement paralleling slow food movement
 
 ### Success Metrics
+
 - Reemployment rates for displaced workers
 - Time to productive use of new skills
 - Mental health scores during transitions

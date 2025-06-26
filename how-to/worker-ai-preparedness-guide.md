@@ -94,24 +94,28 @@ This guide helps workers proactively prepare for AI-driven changes in the workpl
 ## Action Timeline
 
 ### Immediate (This Month)
+
 - Assess current AI exposure in your role
 - Start emergency fund expansion
 - Join one professional network
 - Document one unique skill
 
 ### Short-term (3 Months)
+
 - Complete one AI tool certification
 - Reach 6 months emergency savings
 - Develop one new income source
 - Form or join workplace AI committee
 
 ### Medium-term (6 Months)
+
 - Achieve 9 months emergency fund
 - Complete portable skill training
 - Establish consulting relationships
 - Lead one collective action initiative
 
 ### Long-term (12 Months)
+
 - Reach 12+ months emergency fund
 - Have 2-3 income sources
 - Hold leadership role in worker group
