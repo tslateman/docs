@@ -1,0 +1,143 @@
+site_name: The Doc Lab
+site_description: A comprehensive resource for mastering documentation practices and thriving in the AI era
+site_author: Tommy Slater
+site_url: https://example.com/docs/
+
+repo_name: docs
+repo_url: https://github.com/username/docs
+edit_uri: edit/main/
+
+docs_dir: docs # Documentation source directory
+
+theme:
+  name: material
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.tabs.link
+    - content.code.copy
+    - content.action.edit
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/username/docs
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/username
+
+nav:
+  - Home: README.md
+
+  - Documentation:
+      - Tutorials: tutorials/index.md
+      - How-To Guides:
+          - About How-To: how-to/index.md
+          - Create Documentation: how-to/create-effective-documentation.md
+          - Write Instructions: how-to/write-clear-instructions.md
+          - Documentation Audit: how-to/conduct-documentation-audit.md
+          - Continuous Documentation: how-to/implement-continuous-documentation.md
+          - Structure Knowledge Base: how-to/structure-knowledge-base.md
+          - Developer Documentation: how-to/developer-documentation-guide.md
+
+      - Reference:
+          - About Reference: reference/index.md
+          - Documentation Checklists: reference/documentation-checklists.md
+          - Framework Summary: reference/diataxis-summary.md
+
+      - Explanation:
+          - About Explanation: explanation/index.md
+          - Diátaxis Framework: explanation/diataxis-framework-explained.md
+
+  - AI at Work:
+      - About AI at Work: ai/index.md
+
+      - Tutorials:
+          - About AI Tutorials: ai/tutorials/index.md
+          - Getting Started: ai/tutorials/getting-started-ai-adoption-docs.md
+
+      - How-To Guides:
+          - About AI How-To: ai/how-to/index.md
+          - Developer AI Adaptation: ai/how-to/developer-ai-adaptation-guide.md
+          - Organization AI Adoption: ai/how-to/organization-ai-adoption-guide.md
+          - Organization Developer Evolution: ai/how-to/organization-developer-evolution-guide.md
+          - Policymaker AI Intervention: ai/how-to/policymaker-ai-intervention-guide.md
+          - Technologist Ethical AI: ai/how-to/technologist-ethical-ai-guide.md
+          - Worker AI Preparedness: ai/how-to/worker-ai-preparedness-guide.md
+
+      - Reference:
+          - About AI Reference: ai/reference/index.md
+          - AI Adoption Barriers: ai/reference/ai-adoption-barriers.md
+          - AI Adoption Statistics: ai/reference/ai-adoption-statistics.md
+
+      - Explanation:
+          - About AI Explanations: ai/explanation/index.md
+          - AI Adoption Analysis: ai/explanation/ai-adoption-critical-analysis.md
+          - Developer AI Analysis: ai/explanation/developer-expertise-ai-analysis.md

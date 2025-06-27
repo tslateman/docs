@@ -1,85 +1,96 @@
-# Research Documentation
+# Development Guide
 
-This repository contains documentation organized according to the [Diátaxis framework](https://diataxis.fr/), which categorizes documentation into four distinct types based on user needs.
+This guide explains how to set up and work with the documentation locally.
 
-## 📚 Documentation Structure
+## Quick Start
 
-### 🎓 [Tutorials](./tutorials/)
+```bash
+# First time setup
+make setup
 
-*Learning-oriented guides for beginners*
+# Start the development server
+make serve
+```
 
-Currently empty - planned tutorials include:
+The documentation will be available at <http://localhost:8000>
 
-- Getting Started with Technical Documentation
-- Your First AI Impact Assessment
-- Building Your First Documentation Set
+## Available Commands
 
-### 🔧 [How-to Guides](./how-to/)
+### Setup and Installation
 
-*Task-oriented instructions for specific goals*
+- `make setup` - Create virtual environment and install all dependencies
+- `make install` - Install/reinstall dependencies only
+- `make update` - Update all dependencies to latest versions
 
-- [Organization AI Adoption Guide](./how-to/organization-ai-adoption-guide.md)
-- [Worker AI Preparedness Guide](./how-to/worker-ai-preparedness-guide.md)
-- [Policymaker AI Intervention Guide](./how-to/policymaker-ai-intervention-guide.md)
-- [Technologist Ethical AI Guide](./how-to/technologist-ethical-ai-guide.md)
-- [Developer AI Adaptation Guide](./how-to/developer-ai-adaptation-guide.md)
-- [Organization Developer Evolution Guide](./how-to/organization-developer-evolution-guide.md)
-- [Developer Documentation Guide](./how-to/developer-documentation-guide.md)
+### Development
 
-### 📖 [Reference](./reference/)
+- `make serve` - Start the development server (default port 8000)
+- `make port PORT=8080` - Start server on a custom port
+- `make build` - Build static site to `./site/` directory
+- `make watch` - Build and watch for changes (no server)
 
-*Information-oriented technical descriptions*
+### Testing and Validation
 
-- [Diátaxis Framework Summary](./reference/diataxis-summary.md)
-- [AI Adoption Statistics](./reference/ai-adoption-statistics.md)
-- [Documentation Checklists](./reference/documentation-checklists.md)
-- [Diátaxis Structure Plan](./reference/diataxis-structure.md)
-- [Diátaxis Audit Report](./reference/diataxis-audit-report.md)
+- `make test` - Run documentation checks for broken links and warnings
+- `make validate` - Validate MkDocs configuration syntax
 
-### 💡 [Explanation](./explanation/)
+### Deployment
 
-*Understanding-oriented conceptual discussions*
+- `make deploy` - Deploy to GitHub Pages (requires permissions)
 
-- [AI Adoption Critical Analysis](./explanation/ai_adoption_critical_analysis.md)
-- [Developer Expertise AI Analysis](./explanation/developer_expertise_ai_analysis.md)
-- [Diátaxis Framework Explained](./explanation/diataxis-framework-explained.md)
+### Utilities
 
-## 🧭 Navigation Guide
+- `make shell` - Open a shell with virtual environment activated
+- `make clean` - Remove generated files and virtual environment
+- `make help` - Show all available commands
 
-### By User Need
+## Troubleshooting
 
-**"I want to learn..."** → Start with [Tutorials](./tutorials/)
+### Virtual Environment Issues
 
-**"I need to accomplish..."** → Go to [How-to Guides](./how-to/)
+If you encounter Python or pip errors:
 
-**"I need to look up..."** → Check [Reference](./reference/)
+```bash
+# Clean and rebuild
+make clean
+make setup
+```
 
-**"I want to understand..."** → Read [Explanation](./explanation/)
+### Port Already in Use
 
-### By Topic
+If port 8000 is busy:
 
-**AI and Technology Impact:**
+```bash
+# Use a different port
+make port PORT=8080
+```
 
-- Understanding: [AI Adoption Critical Analysis](./explanation/ai_adoption_critical_analysis.md)
-- Statistics: [AI Adoption Statistics](./reference/ai-adoption-statistics.md)
-- Action guides: See AI-related guides in [How-to](./how-to/)
+### Missing Documentation Files
 
-**Documentation Best Practices:**
+If MkDocs reports missing files, ensure your documentation is in the correct directory structure as specified in `mkdocs.yml`.
 
-- Understanding: [Diátaxis Framework Explained](./explanation/diataxis-framework-explained.md)
-- Practical guide: [Developer Documentation Guide](./how-to/developer-documentation-guide.md)
-- Quick reference: [Documentation Checklists](./reference/documentation-checklists.md)
+## Development Workflow
 
-## 📋 About This Organization
+1. **Make changes** to your markdown files
+2. **Preview locally** with `make serve`
+3. **Validate** changes with `make test`
+4. **Build** the static site with `make build`
+5. **Deploy** when ready with `make deploy`
 
-This documentation follows the Diátaxis framework to ensure:
+## Requirements
 
-- **Clear purpose**: Each document serves one specific need
-- **Easy navigation**: Find what you need based on your current goal
-- **Comprehensive coverage**: All aspects from learning to reference
-- **Maintainable structure**: Easy to update and extend
+- Python 3.7 or higher
+- make (GNU Make)
+- Git (for deployment)
 
-For more information about the Diátaxis framework, see:
+## Directory Structure
 
-- [Diátaxis Framework Summary](./reference/diataxis-summary.md)
-- [Diátaxis Official Site](https://diataxis.fr/)
+```sh
+.
+├── Makefile           # Build automation
+├── mkdocs.yml         # MkDocs configuration
+├── requirements.txt   # Python dependencies
+├── docs/              # Documentation source files (or as configured)
+├── site/              # Generated static site (git-ignored)
+└── venv/              # Python virtual environment (git-ignored)
+```
