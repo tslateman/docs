@@ -6,6 +6,8 @@ A comprehensive exploration of the Diátaxis documentation framework—its princ
 
 Diátaxis emerged from a simple yet profound observation: most documentation fails not because writers lack skill, but because they try to serve multiple purposes simultaneously. Created by Daniele Procida, the framework represents a paradigm shift in how we think about documentation.
 
+The framework was first implemented and refined at Divio, where it became known as the [Divio documentation system](https://docs.divio.com/documentation-system/). This earlier version proved so successful that it evolved into the more comprehensive Diátaxis framework, which has since been adopted by major projects worldwide.
+
 ### The Problem It Solves
 
 Traditional documentation often suffers from:
