@@ -38,6 +38,8 @@ The documentation will be available at <http://localhost:8000>
 
 - `make deploy` - Deploy to GitHub Pages (requires permissions)
 
+**Note:** This site is deployed to https://tslateman.github.io/docs/
+
 ### Utilities
 
 - `make shell` - Open a shell with virtual environment activated
