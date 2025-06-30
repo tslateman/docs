@@ -161,4 +161,4 @@ Watch out for:
 - Join AI-forward developer communities
 - Create personal AI workflow
 - Share knowledge with team
-- Review [Developer Documentation Guide](developer-documentation-guide.md)
+- Review [Developer Documentation Guide](../../how-to/developer-documentation-guide.md)

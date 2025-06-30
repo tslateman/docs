@@ -121,23 +121,23 @@ nav:
 
       - Tutorials:
           - About AI Tutorials: ai/tutorials/index.md
-          - Getting Started: ai/tutorials/getting-started-ai-adoption-docs.md
+          - Getting Started: tutorials/getting-started-ai-adoption-docs.md
 
       - How-To Guides:
           - About AI How-To: ai/how-to/index.md
-          - Developer AI Adaptation: ai/how-to/developer-ai-adaptation-guide.md
-          - Organization AI Adoption: ai/how-to/organization-ai-adoption-guide.md
-          - Organization Developer Evolution: ai/how-to/organization-developer-evolution-guide.md
-          - Policymaker AI Intervention: ai/how-to/policymaker-ai-intervention-guide.md
-          - Technologist Ethical AI: ai/how-to/technologist-ethical-ai-guide.md
-          - Worker AI Preparedness: ai/how-to/worker-ai-preparedness-guide.md
+          - Developer AI Adaptation: how-to/developer-ai-adaptation-guide.md
+          - Organization AI Adoption: how-to/organization-ai-adoption-guide.md
+          - Organization Developer Evolution: how-to/organization-developer-evolution-guide.md
+          - Policymaker AI Intervention: how-to/policymaker-ai-intervention-guide.md
+          - Technologist Ethical AI: how-to/technologist-ethical-ai-guide.md
+          - Worker AI Preparedness: how-to/worker-ai-preparedness-guide.md
 
       - Reference:
           - About AI Reference: ai/reference/index.md
-          - AI Adoption Barriers: ai/reference/ai-adoption-barriers.md
-          - AI Adoption Statistics: ai/reference/ai-adoption-statistics.md
+          - AI Adoption Barriers: reference/ai-adoption-barriers.md
+          - AI Adoption Statistics: reference/ai-adoption-statistics.md
 
       - Explanation:
           - About AI Explanations: ai/explanation/index.md
-          - AI Adoption Analysis: ai/explanation/ai-adoption-critical-analysis.md
-          - Developer AI Analysis: ai/explanation/developer-expertise-ai-analysis.md
+          - AI Adoption Analysis: explanation/ai-adoption-critical-analysis.md
+          - Developer AI Analysis: explanation/developer-expertise-ai-analysis.md
