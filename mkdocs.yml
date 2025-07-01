@@ -115,6 +115,7 @@ nav:
       - Explanation:
           - About Explanation: explanation/index.md
           - Diátaxis Framework: explanation/diataxis-framework-explained.md
+          - Layered Documentation: explanation/layered-documentation-framework.md
 
   - AI at Work:
       - About AI at Work: ai/index.md
