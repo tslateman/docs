@@ -15,6 +15,7 @@ This framework organizes documentation into three primary levels, moving from th
 This is the documentation most tightly coupled with the implementation, intended for the developer actively working on that specific piece of code.
 
 ### Meaningful Names
+
 The first and most fundamental layer of documentation is clean code with meaningful names for variables, functions, classes, and files. Good naming allows the code to convey information that would otherwise require comments.
 
 **Best Practices:**
@@ -25,6 +26,7 @@ The first and most fundamental layer of documentation is clean code with meaning
 - Use searchable names
 
 ### Inline Comments
+
 These should be used sparingly to explain the **why**, not the **what**. The code itself shows what it's doing. An inline comment's purpose is to provide context that the code cannot.
 
 **When to use inline comments:**
@@ -35,6 +37,7 @@ These should be used sparingly to explain the **why**, not the **what**. The cod
 - Warning about consequences or side effects
 
 ### Docstrings (Method & Class Comments)
+
 This is the API contract for a piece of code. A docstring for a function or class should explain how to use it.
 
 **What to include in docstrings:**
@@ -51,6 +54,7 @@ This is the API contract for a piece of code. A docstring for a function or clas
 This documentation lives within a specific project or service repository and is aimed at developers who need to work on, run, or contribute to that service.
 
 ### README.md
+
 This is the front door to your project. For an internal project, its primary audience is a fellow developer, especially a new team member. It should be concise and serve as an entry point.
 
 **Essential README sections:**
@@ -65,6 +69,7 @@ This is the front door to your project. For an internal project, its primary aud
 - **Documentation**: Links to detailed docs, ADRs, design documents
 
 ### ./docs Directory
+
 For documentation that is too long for a README, a dedicated `./docs` directory within the repository is appropriate.
 
 **Common ./docs contents:**
@@ -81,6 +86,7 @@ For documentation that is too long for a README, a dedicated `./docs` directory 
 This documentation transcends a single repository and explains how systems are designed and why they are designed that way.
 
 ### Architectural Decision Records (ADRs)
+
 An ADR captures a single, significant architectural decision. Its purpose is to create a historical log of the system's evolution.
 
 **ADR Structure:**
@@ -99,6 +105,7 @@ An ADR captures a single, significant architectural decision. Its purpose is to 
 - Link related ADRs together
 
 ### Design Docs & Architectural Diagrams
+
 These documents provide a broader view of the system's architecture. While ADRs capture single decisions, design documents describe the overall structure.
 
 **Key Components:**
@@ -107,10 +114,10 @@ These documents provide a broader view of the system's architecture. While ADRs 
 - **Goals and Non-Goals**: Clear scope definition
 - **System Architecture**: Overall design and component interactions
 - **C4 Model Diagrams**:
-    - Context: System boundaries and external interactions
-    - Container: High-level technology choices
-    - Component: Internal structure of containers
-    - Code: Optional detailed class diagrams
+  - Context: System boundaries and external interactions
+  - Container: High-level technology choices
+  - Component: Internal structure of containers
+  - Code: Optional detailed class diagrams
 
 ## How They Work Together: A Developer's Journey
 
@@ -151,12 +158,14 @@ These documentation types form a connected web of knowledge that developers navi
 ## Documentation Maintenance
 
 ### Integration with Development Workflow
+
 - **Code Reviews**: Include documentation updates
 - **Definition of Done**: Documentation requirements
 - **Automated Checks**: Linting for missing docstrings
 - **Regular Audits**: Quarterly documentation reviews
 
 ### Documentation Debt Management
+
 - Track documentation gaps like technical debt
 - Allocate time for documentation improvements
 - Celebrate documentation contributions
