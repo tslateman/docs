@@ -28,7 +28,7 @@ Quality assurance checklists for creating and reviewing documentation.
 - [ ] **Diagrams**: Helpful and properly explained
 - [ ] **Version Info**: Clearly stated
 
-## Diátaxis-Specific Checklists
+## [Diátaxis](https://diataxis.fr/start-here/)-Specific Checklists
 
 ### Tutorial Checklist
 

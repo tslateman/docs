@@ -4,7 +4,7 @@ A comprehensive resource for mastering documentation practices and thriving in t
 
 ## What You'll Find Here
 
-The Doc Lab combines two essential knowledge areas: proven documentation methodologies based on the Diátaxis framework, and practical guidance for working with AI. Whether you're improving your documentation practices or preparing for AI's impact on your work, you'll find actionable resources here.
+The Doc Lab combines two essential knowledge areas: proven documentation methodologies based on the [Diátaxis](https://diataxis.fr/start-here/) framework, and practical guidance for working with AI. Whether you're improving your documentation practices or preparing for AI's impact on your work, you'll find actionable resources here.
 
 ## Quick Start
 
@@ -36,7 +36,7 @@ Data-driven insights
 
 ### 📚 Documentation Section
 
-Master the art of technical documentation through the Diátaxis framework's four modes:
+Master the art of technical documentation through the [Diátaxis](https://diataxis.fr/start-here/) framework's four modes:
 
 - **[Tutorials](tutorials/index.md)** - Learn by doing with hands-on guides
 - **[How-To Guides](how-to/index.md)** - Accomplish specific documentation tasks

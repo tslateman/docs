@@ -1,6 +1,6 @@
 # Diátaxis Summary
 
-Quick reference guide to the Diátaxis documentation framework.
+Quick reference guide to the [Diátaxis](https://diataxis.fr/start-here/) documentation framework.
 
 ## Overview
 
