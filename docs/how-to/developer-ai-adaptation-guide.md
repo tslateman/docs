@@ -273,7 +273,7 @@ Your journey into AI-enhanced development continues with these actionable steps:
 ### Additional Resources
 
 - Review the [Developer Documentation Guide](developer-documentation-guide.md) for AI-enhanced documentation practices
-- Explore [Testing with AI Guide](testing-with-ai-guide.md) for comprehensive testing strategies
+- Check our [Documentation Checklists](../reference/documentation-checklists.md) for quality assurance
 - Join the [AI Developers Community](https://ai-dev-community.org) for ongoing support
 
 ---
